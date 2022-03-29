@@ -1,0 +1,29 @@
+header{
+    background-color: rgb(221, 62, 62);
+    height: auto;
+    width: auto;
+    background-color: $bg_negro;
+    
+    h1{
+        color: aquamarine;
+        text-align: center;
+    }
+    nav{
+        ul{
+            list-style-type: none;
+            display: flex;
+            text-align: center;
+            li{
+                padding: 1.5rem;
+                display: inline-block;
+                &:hover{
+                    color: red;
+                }
+                
+            }
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
